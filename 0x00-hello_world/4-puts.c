@@ -3,7 +3,7 @@
  * main - a c program that prints Programming is like building a multilingual puzzle
  * with puts function
  *
- * Return: always 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
