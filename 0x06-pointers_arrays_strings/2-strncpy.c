@@ -2,29 +2,27 @@
 
 
 /**
- * _strcat - concatenates two strings
+ * _strncpy - copy a string
  * @dest: A pointer to a character that will be changed
  * @n: number of bytes
  * @src: A pointer to a character that will also be changed
  * Return: dest
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j;
+	int i;
 
 	i = 0;
-	while (dest[i] != '\0'')
+	while (i < n && src[i] != '\0')
 	{
+		dest[i] = src[i];
 		i++;
 	}
-	j = 0;
-	while (j < n && src[j] != '\0')
+	while (i < n)
 	{
-		dest[i] = src[j];
-		j++;
+		dest[i] = '\0';
 		i++;
 	}
-	dest[i] = '\0';
 	return (dest);
 }
