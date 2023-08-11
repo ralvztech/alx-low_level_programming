@@ -3,8 +3,11 @@
 #include <time.h>
 
 /**
+ * main - Determine the last digit of a number
+ *
  *print the last digit of the number stored in the variable n
  *if greater than 5 is greater than 5, if 0 is 0, if less than 6 is less than 6 and not 0
+
  *Return: Always 0
  */
 int main(void)
