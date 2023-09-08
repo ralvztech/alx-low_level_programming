@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
   }
 
   if (!is_digit(argv[1]) || !is_digit(argv[2])) {
-    printf("Error\n");
+    _putchar("Error\n");
     exit(98);
   }
 
@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
 
   int result = mul(num1, num2);
 
-  printf("%d\n", result);
+  _putchar(result);
 
   return 0
 }
