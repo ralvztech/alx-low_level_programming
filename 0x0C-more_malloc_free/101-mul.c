@@ -31,7 +31,7 @@ int mul(int num1, int num2)
 
 int main(int argc, char *argv[]) {
   if (argc != 3) {
-    printf("Error\n");
+    _putchar("Error\n");
     exit(98);
   }
 
