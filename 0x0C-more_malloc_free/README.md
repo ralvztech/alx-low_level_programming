@@ -1,1 +1,1 @@
-This program allocate and free space in the memory of a computer
+This codes allocate and free memory spaces
